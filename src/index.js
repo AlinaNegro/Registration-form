@@ -46,3 +46,19 @@ divide.onclick = function () {
     num2.value = '';
 }
 }
+
+/* изменение темы */
+
+let changeColorBlock = () => {
+    switch (document.getElementById("col").value) {
+        case "Green": 
+        document.body.style.backgroundColor = "#3CB371"; 
+        break;
+        case "Blue": 
+        document.body.style.backgroundColor = "#1E90FF"; 
+        break;
+        case "Purple": 
+        document.body.style.backgroundColor = "#8A2BE2"; 
+        break;
+    }
+  }

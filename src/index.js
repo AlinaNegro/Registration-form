@@ -37,7 +37,7 @@ multiply.onclick = function () {
 divide.onclick = function () {
     const x = num1.value;
     const y = num2.value;
-    if (y == 0) {
+    if (y==0) {
     result.textContent = 'На ноль делить нельзя!';
     result.style.color = "red";
 } else {
@@ -49,7 +49,7 @@ divide.onclick = function () {
 
 /* изменение темы */
 
-let changeColorBlock = () => {
+const changeColorBlock = () => {
     switch (document.getElementById("col").value) {
         case "Green": 
         document.body.style.backgroundColor = "#3CB371"; 

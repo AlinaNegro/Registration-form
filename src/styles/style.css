@@ -20,11 +20,15 @@
 }
 
 .calculator,
+.task3 {
+    background-color: rgb(142, 184, 157);
+}
+
+.calculator,
 .colors,
 .task3 {
     margin: 30px;
     padding: 85px;
-    background-color: rgb(142, 184, 157);
     border-radius: 10px;
     display: flex;
     flex-direction: column;

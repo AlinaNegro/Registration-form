@@ -85,3 +85,52 @@
     text-align: center;
 
 }
+
+/* регистрация */
+
+.form-wrap {
+    display: flex;
+    width: 100%;
+    background: #ffd500;
+    border-radius: 20px;
+}
+
+.profile {
+
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: white;
+    width: 70%;
+    padding: 2rem;
+    border-radius: 0 1rem 1rem 0;
+    color: #7b7b7b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+}
+
+
+.radio {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: left;
+}
+
+.radio>input {
+    min-width: max-content;
+}
+
+.warning {
+    font-size: 1rem;
+    color: #fa5656;
+}
+
+.girl {
+    width: 10rem;
+}

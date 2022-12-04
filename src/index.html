@@ -39,6 +39,55 @@
       </div>
     </section>
 
+    <section class="task3 answers">
+      <!-- <h2>Практическое задание 3</h2> -->
+      <div class="form-wrap">
+        <div class="profile">
+          <img src="https://cdn-icons-png.flaticon.com/512/921/921009.png" class="girl" alt="reg">
+          <h2 id="welcome">Регистрация</h2>
+          <p id="info_user"></p>
+        </div>
+        <form id="form">
+          <div>
+            <input type="text" id="firstname" placeholder="Введите имя">
+            <span class="warning" id="warnname"></span>
+          </div>
+          <div>
+            <input type="text" id="surname" placeholder="Введите фамилию">
+            <span class="warning" id="warnsurname"></span>
+          </div>
+          <div>
+            <input type="text" id="password" placeholder="Придумайте пароль">
+            <span class="warning" id="warnpass"></span>
+          </div>
+          <div>
+            <input type="text" id="passrepeat" placeholder="Повторите пароль">
+            <span class="warning" id="warnpassrep"></span>
+          </div>
+          <div>
+            <input type="text" id="email" placeholder="Введите e-mail">
+            <span class="warning" id="warnmail"></span>
+          </div>
+          <div class="radio">
+            <span>Пол</span>
+            <input type="radio" name="gender" value="m" /> Муж
+            <input type="radio" name="gender" value="f" /> Жен
+            <span class="warning" id="warngender"></span>
+          </div>
+          <div>
+            <select id="country">
+              <option value="0">Выберите страну</option>
+              <option value="Rus">Россия</option>
+              <option value="Ukr">Украина</option>
+              <option value="Belarus">Беларусь</option>
+            </select>
+            <span class="warning" id="warncountry"></span>
+          </div>
+          <div><button type="submit" id="submit">Отправить</button></div>
+          <div><button type="reset">Очистить</button></div>
+        </form>
+      </div>
+    </section>
   </main>
   <script src="index.js"></script>
 </body>
